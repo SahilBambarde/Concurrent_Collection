@@ -1,0 +1,18 @@
+map interface
+|
+concurrent Map interface
+|
+ConcurrentHashMap class
+
+ConcurrentHashMap Internal Implementation
+
+ConcurrentHashMap only locks portion of collection on update
+
+ConcurrentHashMap is better than HashTable and synchronized Map as well
+
+ConcurrentHashMap is fail safe does not throws ConcurrentModification Exception
+
+null is not allowed as a key ot value in ConcurrentHashMap
+
+Level of concurrently can be chosen by the programmer on a concurrentHashMap while initializing it
+

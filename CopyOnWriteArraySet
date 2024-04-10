@@ -1,0 +1,17 @@
+CopyOnWriteArraySet
+
+Internal working of CopyOnWriteArrayList
+
+write and update operator are done on cloned object
+
+read operation is performed on Main Object
+
+after write or update operator cloned object will be in sync with the main object
+
+-----------------------------------------------
+
+Collection Interface
+|
+Set Interface
+|
+CopyOnWriteArraySet Class

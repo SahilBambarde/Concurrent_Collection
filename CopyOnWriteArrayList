@@ -1,0 +1,17 @@
+Collection interface
+|
+List interface
+|
+CopyOnWriteArrayList class
+
+It is thread safe
+no lock on read
+
+whenever there is an update or write operation then a clone object will be created, update or write
+operation will be performed on Cloned Object rather than Main Object
+
+it is thread-safe version of arrayList
+
+CopyOnWriteArrayList cannot perform remove operator
+
+
